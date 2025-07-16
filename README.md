@@ -55,7 +55,7 @@ This diagram illustrates the core Git workflow:
 - **Repository**: Where your project history is permanently stored
 - **Remote**: Cloud backup and collaboration hub (GitHub/GitLab)
 
-## 📁 Project Structure
+## Project Structure
 
 The guide includes templates for:
 - `.gitignore` files optimized for data projects
