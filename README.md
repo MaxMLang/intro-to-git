@@ -21,14 +21,14 @@ This guide covers everything you need to know about Git for data analysis:
 - **Documentation**: Every change documents your analytical journey
 - **Backup & Recovery**: Never lose your analysis scripts or notebooks
 
-## 📚 Quick Start
+## Quick Start
 
 1. **Read the full guide**: [git-guide.md](git-guide.md)
 2. **Set up your environment**: Follow the configuration section
 3. **Start with basic workflows**: Practice the daily analysis workflow
 4. **Explore branching**: Learn how to manage experiments and features
 
-## 🔧 Essential Commands
+## Essential Commands
 
 ```bash
 # Daily workflow
@@ -43,7 +43,7 @@ git checkout -b analysis/new-model
 git merge analysis/new-model
 ```
 
-## 📊 Understanding Git's Three File States
+## Understanding Git's Three File States
 
 ![Git Three File States](assets/visualisation_of_three_file_states.png)
 
@@ -63,10 +63,10 @@ The guide includes templates for:
 - Commit message best practices
 - Repository organization
 
-## 🤝 Contributing
+## Contributing
 
 This guide is designed to be practical and actionable. If you have suggestions for improvements or additional workflows, feel free to contribute!
 
-## 📚 Additional Resources
+## Additional Resources
 
 - **[NOAA EDAB - Getting Git](https://noaa-edab.github.io/presentations/20190411_Getting_Git_Hardison.html#11)**: Excellent presentation on Git fundamentals with clear visualizations
