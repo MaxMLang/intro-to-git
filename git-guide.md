@@ -1,5 +1,68 @@
 # Git Guide for Data Analysis Projects: From Basics to Branching
 
+## Table of Contents
+
+1. [Why Use Git for Data Analysis Projects?](#why-use-git-for-data-analysis-projects)
+   - [The Problem Git Solves for Data Scientists](#the-problem-git-solves-for-data-scientists)
+   - [Key Benefits for Data Analysis](#key-benefits-for-data-analysis)
+
+2. [Understanding Local vs Remote Repositories](#understanding-local-vs-remote-repositories)
+   - [What is a Repository?](#what-is-a-repository)
+   - [Local Repository: Your Personal Workspace](#local-repository-your-personal-workspace)
+   - [Remote Repository: The Shared Hub](#remote-repository-the-shared-hub)
+   - [The Relationship Between Local and Remote](#the-relationship-between-local-and-remote)
+
+3. [Setting Up GitHub as Your Remote Repository](#setting-up-github-as-your-remote-repository)
+   - [Step 1: Create a GitHub Account](#step-1-create-a-github-account)
+   - [Step 2: Create a New Repository on GitHub](#step-2-create-a-new-repository-on-github)
+   - [Step 3: Connect Local Repository to GitHub](#step-3-connect-local-repository-to-github)
+   - [Step 4: Authentication Setup](#step-4-authentication-setup)
+
+4. [Core Git Concepts for Data Analysis](#core-git-concepts-for-data-analysis)
+   - [The Three States of Git Explained](#the-three-states-of-git-explained)
+   - [Key Terms Explained](#key-terms-explained)
+
+5. [First-Time Git Configuration](#first-time-git-configuration)
+
+6. [Basic Git Workflow for Data Analysis](#basic-git-workflow-for-data-analysis)
+   - [Starting a New Analysis Project](#starting-a-new-analysis-project)
+   - [The Daily Analysis Workflow Explained](#the-daily-analysis-workflow-explained)
+   - [Detailed Example: A Day in the Life of a Data Analyst](#detailed-example-a-day-in-the-life-of-a-data-analyst)
+   - [Viewing Project History](#viewing-project-history)
+
+7. [Managing Changes in Your Analysis](#managing-changes-in-your-analysis)
+   - [Before Committing: Undoing Local Changes](#before-committing-undoing-local-changes)
+   - [After Committing: Fixing Mistakes](#after-committing-fixing-mistakes)
+
+8. [Branching for Data Analysis Experiments](#branching-for-data-analysis-experiments)
+   - [Why Branches Matter for Analysis](#why-branches-matter-for-analysis)
+   - [Branch Naming for Data Projects](#branch-naming-for-data-projects)
+   - [Branching Workflow for Analysis](#branching-workflow-for-analysis)
+   - [Real-World Example: A/B Test Analysis](#real-world-example-ab-test-analysis)
+
+9. [Collaborative Workflows for Data Teams](#collaborative-workflows-for-data-teams)
+   - [Handling Merge Conflicts in Analysis Code](#handling-merge-conflicts-in-analysis-code)
+   - [Pull Request Best Practices for Analysis](#pull-request-best-practices-for-analysis)
+
+10. [Best Practices for Data Analysis Projects](#best-practices-for-data-analysis-projects)
+    - [Commit Messages for Analysis](#commit-messages-for-analysis)
+    - [What to Track in Data Projects](#what-to-track-in-data-projects)
+    - [Data-Specific .gitignore](#data-specific-gitignore)
+
+11. [Common Data Analysis Workflows](#common-data-analysis-workflows)
+    - [Exploratory Analysis Workflow](#exploratory-analysis-workflow)
+    - [Model Development Workflow](#model-development-workflow)
+    - [Production Pipeline Workflow](#production-pipeline-workflow)
+
+12. [Troubleshooting Common Issues](#troubleshooting-common-issues)
+    - [Large File Problems](#large-file-problems)
+    - [Jupyter Notebook Conflicts](#jupyter-notebook-conflicts)
+    - [Credentials in Code](#credentials-in-code)
+
+13. [Quick Reference for Data Analysis](#quick-reference-for-data-analysis)
+
+---
+
 ## Why Use Git for Data Analysis Projects?
 
 ### The Problem Git Solves for Data Scientists
