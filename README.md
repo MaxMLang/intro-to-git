@@ -1,4 +1,4 @@
-# Git Guide for Data Analysis Projects
+# Git Your Data Together
 
 A comprehensive guide to using Git for data science and analysis projects, from basic concepts to advanced workflows.
 
